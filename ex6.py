@@ -7,6 +7,21 @@ def messages(name, age, height, weight, eyes, hair):
     elif age >= 20:
         print("Hi there grandpa!")
 
+    if height < 147:
+        print("You're a bit of a dwarf aren't you?")
+    elif height >= 147 and height < 180:
+        print("You're somewhat of a decent height")
+    elif height >= 180:
+        print("How's the weather up there?")
+
+    if weight < 50:
+        print("Are you eating ok?")
+    elif weight >= 50 and weight < 3000:
+        print("You're a healty weight I guess")
+    elif weight >= 3000:
+        print("You're a bit overweight")
+
+
 # Saves me retying inputs all the time
 def dev_mode():
     name = "Jordan"
