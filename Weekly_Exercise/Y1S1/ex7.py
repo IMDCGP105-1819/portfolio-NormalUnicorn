@@ -19,7 +19,7 @@ def inputs():
     annual_salary = float(input("Please enter how much you earn annualy: (£)"))
     monthly_salary = annual_salary/12
     #How much is earned every month
-    monthly_savings = float(input("Please enter how much you plan on saving each month"))
+    monthly_savings = float(input("Please enter how much you plan on saving each month (%)"))
     monthly_saving = monthly_savings/100
     monthly_saved = monthly_salary*monthly_saving
     #How much money is invested to the deposit each month
