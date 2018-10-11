@@ -29,7 +29,7 @@ def inputs():
     #How much money is invested to the deposit each month
     annual_raise = float(input("Please enter how much of a raise you recieve annualy"))
     semi_raise = (annual_raise/100)/2
-    #How much of a raise the person recieves 
+    #How much of a raise the person recieves
     maths(deposit, monthly_saved, semi_raise)
 
 inputs()
