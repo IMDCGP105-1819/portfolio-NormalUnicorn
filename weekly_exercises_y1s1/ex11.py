@@ -13,7 +13,9 @@ def guesses(random_int):
 
         if guess > random_int:
             print("That guess is too high")
-            
+
+        print("It took you ", len(past_guesses), " guess(es) to guess the number")
+        print("Your previous guess(es) were: ", past_guesses)
 
 def values():
     low_val = int(input("Please enter a lower value"))
