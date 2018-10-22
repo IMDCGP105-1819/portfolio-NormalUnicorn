@@ -5,7 +5,7 @@ def guesses(random_int):
     Asks the user to guess a number, it then compares if the number is the
     same as the random number, if not it then sees if the number is greater than
     or less than the user guess and will let the user know, and also add the guess
-    to a list  
+    to a list
     '''
     past_guesses = []
     guess = 0
