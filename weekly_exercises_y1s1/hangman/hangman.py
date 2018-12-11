@@ -120,8 +120,15 @@ def hangman(secret_word):
     Follows the other limitations detailed in the problem write-up.
     '''
     # FILL IN YOUR CODE HERE AND DELETE "pass"
-    pass
-    is_word_guessed(secret_word, letters_guessed)
+    guesses = 6
+    print("You have 6 guesses")
+    try:
+        l_guessed = str(input("Please enter a letter to guess"))
+        if l_guessed.len()!=1:
+            print("Please only guess one letter")
+            hangman(secret_word)
+    except ValueError:
+        print("Please input a letter")
 
 letters_guessed = []
 secret_word = choose_word(wordlist)
